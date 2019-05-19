@@ -1,0 +1,31 @@
+{
+    "apps": [
+        {
+            "name": "falcor-poc",
+            "script": "./sources/index.js",
+            "instances": "2",
+            "exec_mode": "cluster",
+            "error_file": "./logs/falcor-poc_error.log",
+            "out_file": "./logs/falcor-poc_out.log",
+            "pid_file": "./logs/falcor-poc_pid.pid",
+            "ignore_watch": [
+                "node_modules",
+                ".DS_Store",
+                ".vscode",
+                "logs",
+                ".git"
+            ],
+            "trace": true,
+            "watch": true,
+            "env_local": {},
+            "env_development": {},
+            "env_staging": {},
+            "env_production": {}
+        }
+    ],
+    "deploy": {
+        "production": {},
+        "staging": {},
+        "development": {}
+    }
+}

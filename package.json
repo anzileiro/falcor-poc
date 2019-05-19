@@ -1,0 +1,8 @@
+{
+  "name": "falcor-poc",
+  "version": "1.0.0",
+  "main": "./sources/index.js",
+  "repository": "https://github.com/anzileiro/falcor-poc.git",
+  "author": "Anderson Anzileiro <anderson.anzileiro@gmail.com>",
+  "license": "MIT"
+}
