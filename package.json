@@ -4,5 +4,10 @@
   "main": "./sources/index.js",
   "repository": "https://github.com/anzileiro/falcor-poc.git",
   "author": "Anderson Anzileiro <anderson.anzileiro@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.0",
+    "falcor-express": "^0.1.4",
+    "falcor-router": "^0.8.3"
+  }
 }
