@@ -17,7 +17,12 @@
             ],
             "trace": true,
             "watch": true,
-            "env_local": {},
+            "env_local": {
+                "debug": true,
+                "mode": "local",
+                "mongo_uri": "mongodb+srv://anzileiro:0b58d8a280a6774a8f0a275abdd5b2c0@my-cluster-6hioe.gcp.mongodb.net/queries_api?retryWrites=true",
+                "mongo_replica": "my-cluster-shard-0"
+            },
             "env_development": {},
             "env_staging": {},
             "env_production": {}
