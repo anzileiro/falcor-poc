@@ -10,7 +10,9 @@ module.exports = {
     },
 
     find: async () => {
-        const { data, error } = await repository.find()
+        const { data, error } = await repository.find(libray)
+
+        return { data, error }
     }
 
 }

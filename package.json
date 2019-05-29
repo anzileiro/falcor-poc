@@ -7,6 +7,7 @@
   "license": "MIT",
   "dependencies": {
     "bluebird": "^3.5.5",
+    "cookie-parser": "^1.4.4",
     "express": "^4.17.0",
     "falcor-express": "^0.1.4",
     "falcor-router": "^0.8.3",

@@ -86,3 +86,4 @@ typings/
 
 # DynamoDB Local files
 .dynamodb/
+.gitsecret/keys/random_seed
