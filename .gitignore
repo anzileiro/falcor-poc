@@ -1,3 +1,8 @@
+#PM2
+./pm2.json
+.pm2.json
+pm2.json
+
 # Logs
 logs
 *.log
@@ -8,10 +13,6 @@ lerna-debug.log*
 
 # Diagnostic reports (https://nodejs.org/api/report.html)
 report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
-
-./pm2.json
-.pm2.json
-pm2.json
 
 # Runtime data
 pids
